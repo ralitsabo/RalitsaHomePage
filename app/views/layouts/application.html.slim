@@ -1,7 +1,14 @@
 doctype html
-html
+html lang = "en"
   head
-
+    meta name="viewport" content="width=device-width initial-scale=1"
+    title MyPage
+    = stylesheet_link_tag :application, :media => "all"
+    = csrf_meta_tags
   body
     = render 'layouts/parts/navigation'
-    = yield
+    .container-fluid.main
+      = yield
+    = javascript_include_tag :application
+
+

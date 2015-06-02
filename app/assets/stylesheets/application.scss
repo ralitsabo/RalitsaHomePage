@@ -12,8 +12,10 @@
  *
  *= require_tree .
  *= require_self
- *= require welcome
  */
+
+ @import 'welcome';
+ @import 'bootstrap_var';
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
