@@ -16,3 +16,6 @@
 //= require_tree .
 //= require bootstrap-sprockets
 //= require welcome
+
+
+console.log("hello");
