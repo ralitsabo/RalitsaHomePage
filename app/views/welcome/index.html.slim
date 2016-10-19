@@ -1,6 +1,21 @@
+section.parallax
+  ul id="scene"
+    li class="layer" data-depth="0.00"
+      = image_tag("parallax/layer1.png")
+    li class="layer" data-depth="0.20"
+      = image_tag("parallax/layer2.png")
+    li class="layer" data-depth="0.40"
+      = image_tag("parallax/layer3.png")
+    li class="layer" data-depth="0.60"
+      = image_tag("parallax/layer4.png")
+    li class="layer" data-depth="0.80"
+      = image_tag("parallax/layer5.png")
+    li class="layer" data-depth="1.00"
+      = image_tag("parallax/layer6.png")
+
 section.main
   .author-image
-    = image_tag("rarar.jpg")
+    = image_tag("logo.png")
 .row
   .col-xs-9
     .row
@@ -26,6 +41,8 @@ section.main
               p = "__"
 
   .col-xs-3
-    / = image_tag('personal-photo.jpg', class: 'img-responsive personal-photo' )
-    h4 = ".."
-
+    .background
+      .column#column3
+        h2 = "..."
+        .box
+          p = "__"
