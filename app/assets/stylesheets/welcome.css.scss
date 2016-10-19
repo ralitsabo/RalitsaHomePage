@@ -3,6 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 */
 
+body {
+  background-image: url("background.jpg");
+}
+
 h1 {
   color: red;
 }
@@ -37,7 +41,7 @@ h2, h4, h5 {
 }
 
 .background {
-  background-color: rgba(211, 211, 219, 0.9);
+  /*background-color: rgba(211, 211, 219, 0.9);*/
   padding: 15px;
 }
 

@@ -1,60 +1,31 @@
-.row
-  .col-xs-9
-    .row
-      .col-xs-4
-        .background
-          .column#column1
-            h2 = "Learned"
-            .box data-handler= "Hover"
-              p = "JavaScript"
-            .box
-              p = "CSS"
-            .box
-              p = "HTML"
-            .box
-              p = "HTML1"
-            .box
-              p = "HTML2"
-            .box
-              p = "HTML3"
-            .box
-              p = "HTML4"
-            .box
-              p = "HTML5"
-            .box
-              p = "HTML6"
-            .box
-              p = "HTML7"
-            .box
-              p = "HTML8"
-            .box
-              p = "HTML9"
-            .box
-              p = "HTML10"
-            .box
-              p = "HTML11"
-      .col-xs-4
-        .background
-          .column#column2
-            h2 = "Learning"
-            .box
-              p = "Jquery"
-      .col-xs-4
-        .background
-          .column#column3
-            h2 = "To learn"
-            .box
-              p = "C++"
-            .box
-              p = "Java"
-  .col-xs-3
-    .background :ScrollButtons
-      = image_tag('personal-photo.jpg', class: 'img-responsive personal-photo' )
-      h4 = "Name:"
-      h5 = "Ralitsa Borsiova"
-      h4 = "Age:"
-      h5 = "19"
-      h4 = "Number:"
-      h5 = "+359 897 202 689"
+body
+  .content-wrapper
+    .container-fluid
+      .row
+        .col-xs-9
+          .row
+            .col-xs-4
+              .background
+                .column#column1
+                  h2 = "..."
+                  .box data-handler="Hover"
+                    p = "__"
 
-      = embedded_svg "svg.svg", class: 'ralitsa'
+            .col-xs-4
+              .background
+                .column#column2
+                  h2 = "..."
+                  .box
+                    p = "__"
+
+            .col-xs-4
+              .background
+                .column#column3
+                  h2 = "..."
+                  .box
+                    p = "__"
+
+        .col-xs-3
+          / = image_tag('personal-photo.jpg', class: 'img-responsive personal-photo' )
+          h4 = ".."
+
