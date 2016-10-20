@@ -1,8 +1,14 @@
-.navbar.navbar-default.navbar-static-top.box-shadow
-  .navbar-header
-    .navbar-logo= image_tag('logo.png', alt: 'RBB', class: 'main-logo')
-    
-    .nav.navbar-nav.navbar-right.collapse.navbar-collapse id="bs-example-navbar-collapse-1"
-      ul class="nav navbar-nav"
+nav class="navbar navbar-default"
+  div class="container-fluid"
+    div class="navbar-header"
+      .navbar-logo= image_tag('logo.png', alt: 'RBB', class: 'main-logo')
+      button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+        span class="sr-only"
+        span class="icon-bar"
+        span class="icon-bar"
+        span class="icon-bar"
+
+    div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+      ul class="nav navbar-nav navbar-right"
         li = link_to "Parallax", articles_path
         li = link_to "Home", root_path
