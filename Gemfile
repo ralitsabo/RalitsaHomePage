@@ -34,6 +34,10 @@ gem 'highcharts-rails'
 gem 'bootstrap-sass'
 
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
