@@ -9,7 +9,9 @@ RSpec.describe ArticlesController, type: :controller do
 
 	it "render show" do
 		get :show
-		response.body.should have_content("This is article")
+		expect(response).to render_template("index")
+		#  NOT GOOD!!!!!! ->
+		# response.body.should have_content("This is article")
 		# expect(page).to have_content("This is article")
 	end
 end

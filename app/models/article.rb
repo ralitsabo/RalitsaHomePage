@@ -4,4 +4,8 @@ class Article
   def info
   	"The author of #{@name} is #{@author}"
   end
+
+  def new
+
+  end
 end
