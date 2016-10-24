@@ -35,7 +35,7 @@ gem 'bootstrap-sass'
 
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.5'
+	gem 'rspec-rails', '~> 3.5'
 	gem 'capybara'
 	gem 'faker', '~> 1.6.1'
 	gem 'factory_girl_rails', '~> 4.5.0'
