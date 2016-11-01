@@ -1,4 +1,3 @@
-# Rails.application.routes.draw do
 #   get 'welcome/index'
 
 #   # The priority is based upon order of creation: first created -> highest priority.
@@ -61,6 +60,7 @@
 
 
 Rails.application.routes.draw do
+  resources :feeds
 
 	resources :welcome
 

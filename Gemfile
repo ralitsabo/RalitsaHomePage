@@ -33,6 +33,8 @@ gem 'slim-rails'
 gem 'highcharts-rails'
 gem 'bootstrap-sass'
 
+gem 'feedjira'
+gem 'twitter-bootstrap-rails'
 
 group :development, :test do
 	gem 'rspec-rails', '~> 3.5'

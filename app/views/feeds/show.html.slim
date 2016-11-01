@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @feed.name
+p
+  strong Url:
+  = @feed.url
+p
+  strong Description:
+  = @feed.description
+
+= link_to 'Edit', edit_feed_path(@feed)
+'|
+= link_to 'Back', feeds_path
