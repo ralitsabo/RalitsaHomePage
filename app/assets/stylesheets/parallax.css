@@ -92,11 +92,11 @@ input[type=checkbox]:checked + label:before {
   opacity: 0.2;
 }
 
-.layer:first-child() {
+.layer:first-child {
   opacity: 0.15;
 }
 
-.layer:first-child() button {
+.layer:first-child button {
   -webkit-transform: rotate(150deg);
 }
 

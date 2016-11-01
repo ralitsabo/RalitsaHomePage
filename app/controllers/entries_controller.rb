@@ -2,6 +2,7 @@ class EntriesController < ApplicationController
   before_action :set_feed, only: :index
 
   def index
+    raise
     @entries = @feed.entries.order('published desc')
   end
 
