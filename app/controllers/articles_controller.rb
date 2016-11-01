@@ -9,7 +9,7 @@ class ArticlesController < ApplicationController
 	def new
 		# @article = Article.find(params[:name])
 		# @article = Article.find(params[:author])
-		# @article = Article.new		
+		# @article = Article.new
 	end
 
 	def create
