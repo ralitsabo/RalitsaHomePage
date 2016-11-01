@@ -1,0 +1,8 @@
+div class="container"
+  = @entries.each do |entry|
+    div class="panel panel-default"
+      div class="panel-body"
+        = link_to entry.title, entry  do
+        	p = 'published'
+        	= time_ago_in_words(entry.published)
+        	p = 'ago'
